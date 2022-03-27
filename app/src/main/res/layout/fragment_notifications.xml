@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="honghong.beidanci.ui.notifications.NotificationsFragment">
+    tools:context="antijuan.beidanci.ui.notifications.NotificationsFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -57,7 +57,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="总刷单词数"
+                android:text="@string/myself_all_num"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
@@ -79,7 +79,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:gravity="center"
-                android:text="今天也要加油哦！"
+                android:text="@string/inspiration"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
@@ -95,7 +95,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_alignParentBottom="true"
                 android:padding="5dp"
-                android:text="Design by iliweii"
+                android:text="@string/copyright_information"
                 android:textSize="8sp" />
         </RelativeLayout>
     </LinearLayout>
