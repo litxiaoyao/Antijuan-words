@@ -37,7 +37,6 @@ public class HomeFragment extends Fragment {
 
     private HomeViewModel homeViewModel;
 
-    private TextView home_date;
     private TextView home_mean;
     private TextView home_yinbiao;
     private EditText home_word;
@@ -66,7 +65,6 @@ public class HomeFragment extends Fragment {
 //            }
 //        });
 
-        home_date = root.findViewById(R.id.home_date);
         home_mean = root.findViewById(R.id.home_mean);
         home_yinbiao = root.findViewById(R.id.home_yinbiao);
         home_word = root.findViewById(R.id.home_word);
@@ -163,7 +161,7 @@ public class HomeFragment extends Fragment {
         total_word = kaoyans.size();
         home_metting.setText(total_meeting + " / " + total_word);
         home_count.setText(count_today + " / " + count_total);
-        home_date.setText(nowDate);
+
 
         // 展示题目
         NextQuestion();
